@@ -1,0 +1,19 @@
+{
+    "name": "radov/patterns",
+    "authors": [
+        {
+            "name": "Yuriy Radov",
+            "email": "radov.yuriy@ukr.net"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "7"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "patterns",
+            "Tests\\": "tests"
+        }
+    }
+}
